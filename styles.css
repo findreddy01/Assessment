@@ -1,0 +1,37 @@
+.container{
+    margin: 10px;
+
+}
+
+.btn__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn__container .btn{
+    border: 1px solid;
+    box-shadow: 2px 3px 6px black;
+    margin: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.msg__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.msg__container .msg {
+    border: 1px solid;
+    width: 75%;
+    max-width: 800px;
+    margin: 10px;
+    padding: 10px;
+}
