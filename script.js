@@ -1,7 +1,7 @@
 var BYE_BTN_ID = 'bye';
 var HELLO_BTN_ID = 'hello';
 var HELLO_MSG_STRNG = 'Hello';
-var BYE_MSG_STRNG = 'Good Bye';
+var BYE_MSG_STRNG = 'Goodbye';
 var MSG_CLASS_NAME ='msg';
 var btnContainer = document.getElementsByClassName('btn__container')[0];
 var msgContainer = document.getElementsByClassName('msg__container')[0];
